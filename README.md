@@ -45,7 +45,7 @@ Como primeiro passo faça ***checkout*** desse projeto e suba na sua conta do Gi
   - Mínimo de 2 instâncias;
   - Endpoint de `HealthCheck` das máquinas;
 #### Configurações
-- Minimo OpenJDK 17 instalado;
+- Minimo OpenJDK 21 instalado;
 - Maven na versão 3.8+ instalado;
 - IDE pode ser o de preferência, mas gostamos bastante do IntelliJ por aqui;
 - Docker e docker-compose instalados.
@@ -56,7 +56,10 @@ Se atentar a diferença dos testes acima citados.
 ```
 mvn clean verify
 ```
-
+### Frontend
+- Desejável
+  Interface minimamente simples com angular listando os registro com um botão criar e editar.
+  
 #### Fazer os itens abaixo será considerado um diferencial, não deixe de tentar
 Será considerado um plus os candidatos que entregarem:
 - Bom uso dos padrões de REST;
